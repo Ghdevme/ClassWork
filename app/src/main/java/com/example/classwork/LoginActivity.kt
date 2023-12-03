@@ -15,12 +15,6 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
 
-        val createNAButton: Button = findViewById(R.id.createNewAccount)
-        createNAButton.setOnClickListener {
-
-            val i = Intent(this, CreateNewAccountActivity::class.java)
-            startActivity(i)
-        }
 
         val forgotPasswordBtn: Button = findViewById(R.id.forgottenPassword)
         forgotPasswordBtn.setOnClickListener {

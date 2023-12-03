@@ -8,23 +8,23 @@
     android:background="@drawable/union_bg"
     tools:context=".MainActivity">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/profile1"
+        android:layout_width="108dp"
+        android:layout_height="157dp"
         android:layout_margin="50dp"
         android:layout_marginEnd="60dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        android:src="@drawable/me1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/profile2"
-        app:layout_constraintTop_toBottomOf="@id/profile1"
-        app:layout_constraintEnd_toEndOf="@id/profile1"/>
+        android:layout_width="218dp"
+        android:layout_height="196dp"
+        android:src="@drawable/me2"
+        app:layout_constraintEnd_toEndOf="@id/profile1"
+        app:layout_constraintTop_toBottomOf="@id/profile1" />
 
     <TextView
         android:id="@+id/startedText"
@@ -39,7 +39,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Grow Together"
+        android:text="Get to know me"
         android:textSize="20sp"
         android:textStyle="normal"
         android:textColor="#000000"
@@ -49,7 +49,7 @@
         android:id="@+id/joinNowButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="JOIN NOW"
+        android:text="COME IN"
         android:textColor="#ffffff"
         android:textSize="15sp"
         android:textStyle="normal"

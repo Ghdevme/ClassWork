@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         //Set a listener to the button
         joinButton.setOnClickListener{
             //Navigate user to LoginActivity
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, CreateNewAccountActivity::class.java)
 
             startActivity(intent)
         }
